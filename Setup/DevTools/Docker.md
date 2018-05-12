@@ -58,16 +58,22 @@ Check if host OS Docker daemon can be reached:
 $ docker -H tcp://0.0.0.0:2375 images
 ```
 
-If so, set it as default:
+If so, set it as an environment variable:
 ```
-$ echo "export DOCKER_HOST='tcp://0.0.0.0:2375'" >> ~/.bashrc
+$ export DOCKER_HOST=tcp://0.0.0.0:2375
 ```
 
 Check if it worked:
 ```
 $ docker images
 ```
-If that didn't work. Look in this [blogpost from Tomas Lycken](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/) for any updates.
+
+If so, add it to our bashrc, to persist the change
+```
+$ echo "export DOCKER_HOST='tcp://0.0.0.0:2375'" >> ~/.bashrc
+```
+
+In case this method does not work anymore, have a look at this [blogpost from Tomas Lycken](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/) and check for any updates.
 
 ## Install Compose (Docker Composer)
 
