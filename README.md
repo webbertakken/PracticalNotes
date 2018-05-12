@@ -9,7 +9,7 @@ Personal notes
   - [CLI-settings](Azure/CliSettings.md)
   - Kubernetes
     - [Commands](Azure/K8sCommands.md)
-    - [Kubernetes prerequisites](Azure/K8sPrerequisites.md)
-    - [Creating and managing Kubernetes cluster](Azure/K8sClusterOperations.md)
-    - [Creating and managing Container Registry](Azure/K8sContainerRegistry.md)
-    - [Deploying applicatoins]
+    - [Prerequisites](Azure/K8sPrerequisites.md)
+    - [Cluster Operations](Azure/K8sClusterOperations.md)
+    - [Managing Container Registry](Azure/K8sContainerRegistry.md)
+    - [Application Deployment](Azure/K8sDeployApplication)
