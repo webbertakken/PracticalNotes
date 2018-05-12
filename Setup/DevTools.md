@@ -22,5 +22,5 @@
 
 [//]: # (Dependencies: Go)
 - [Docker](DevTools/Docker.md)
-  - [Compose](DevTools/Docker.md#Install-Compose-(Docker-Composer))
-  - [Kompose](DevTools/Docker.md#Install-Kompose-(Kubernetes-Composer))
+  - [Compose](DevTools/Docker.md#Install-Compose-Docker-Composer)
+  - [Kompose](DevTools/Docker.md#Install-Kompose-Kubernetes-Composer)

@@ -12,4 +12,4 @@ Personal notes
     - [Prerequisites](Azure/K8sPrerequisites.md)
     - [Cluster Operations](Azure/K8sClusterOperations.md)
     - [Managing Container Registry](Azure/K8sContainerRegistry.md)
-    - [Application Deployment](Azure/K8sDeployApplication)
+    - [Application Deployment](Azure/K8sDeployApplication.md)
