@@ -10,7 +10,7 @@
 - Git
 - [Go](DevTools/GoLang.md) - https://golang.org/doc/install
 - Python (including pip)
-- [PHP](DevTools/Php.md) (including Xdebug, Composer, Symfony, Laravel etc.)
+- [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
 - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
 
 [//]: # (Dependencies: Go)
