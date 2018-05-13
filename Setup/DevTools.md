@@ -8,17 +8,9 @@
 [//]: # (Dependencies: WSL)
 - Git
 - Go - https://golang.org/doc/install
-- Python
-  - pip
-- PHP
-  - Composer
-  - Symfony
-  - Laravel
-- Node.js
-  - NPM
-  - Yarn
-  - Grunt
-  - Gulp
+- Python (including pip)
+- PHP (including Composer, Symfony, Laravel etc.)
+- [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
 
 [//]: # (Dependencies: Go)
 - [Docker](DevTools/Docker.md)

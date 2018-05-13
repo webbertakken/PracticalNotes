@@ -16,7 +16,7 @@ Install Azure Command Line Interface
 #### Login
 Login to Azure by using the following command and following its procedure:
 ```
-az login
+$ az login
 ```
 You are now logged in to Azure.
 Make sure to not forget to set [CLI-settings](CliSettings.md).

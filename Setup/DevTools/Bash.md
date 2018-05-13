@@ -1,4 +1,4 @@
-# DevTools - Bash in Windows Subsystem for Linux
+# Setup Bash in Windows Subsystem for Linux
 
 ## Installing bash in Windows Subsystem for Linux
 
