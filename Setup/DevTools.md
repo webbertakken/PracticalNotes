@@ -6,6 +6,7 @@
 - [Linux Bash (WSL)](DevTools/Bash.md)
 
 [//]: # (Dependencies: WSL)
+- MariaDB - https://mariadb.com/downloads/mariadb-tx
 - Git
 - Go - https://golang.org/doc/install
 - Python (including pip)
