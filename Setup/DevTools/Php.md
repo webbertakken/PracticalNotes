@@ -19,7 +19,7 @@
 extension = extension_name
 ```
 
-### XDebug: 
+### XDebug
 - Download at https://xdebug.org/download.php
 - Rename the dll to php_xdebug.dll and add it to the ext folder within php
 - Enable the extension adding this to php.ini (locate by running `php --ini`)
@@ -39,11 +39,11 @@ xdebug.scream = 1
 xdebug.halt_level = E_WARNING|E_USER_WARNING
 ```
 
-### Composer:
-- Go to the folder where you want composer installed
+### Composer
+- Go to the folder where you want Composer installed
 - Look up the commands to run at https://getcomposer.org/download/
 - Run the commands
-- Create a `composer.bat` file in the same folder and add the following content:
+- Create a `composer.bat` file in the same folder and add the following contents:
 ```batch
 @ECHO OFF
 php "%~dp0composer.phar" %*
@@ -52,4 +52,16 @@ php "%~dp0composer.phar" %*
 - Verify by running:
 ```powershell
 > composer --version
+```
+
+### Symfony
+Note: Symfony4 uses composer to create its project, for Symfony3 or earlier follow these steps:
+
+- Go to the folder where you want Symfony-CLI installed
+- Look up the commands to run at https://github.com/symfony/symfony-installer
+- Run the commands
+- Create a `symfony.bat` file in the same folder and add the following contents:
+```batch
+@ECHO OFF
+php "%~dp0symfony" %*
 ```
