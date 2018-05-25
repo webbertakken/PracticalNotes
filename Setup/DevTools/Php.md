@@ -36,7 +36,7 @@ xdebug.force_error_reporting = 1
 ; disable the @ (shut-up) operator so that notices, warnings and errors are no longer hidden.
 xdebug.scream = 1 
 ; warnings get converted to errors
-xdebug.halt_level = E_WARNING|E_NOTICE|E_USER_WARNING|E_USER_NOTICE
+xdebug.halt_level = E_WARNING|E_USER_WARNING
 ```
 
 ### Composer:
