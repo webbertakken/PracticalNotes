@@ -5,7 +5,7 @@
 - Download php at https://windows.php.net/download
 - Extract the contents of the archive to a folder (e.g. `x:/php`)
 - Change the `php.ini-development` to `php.ini`
-- Add the folder to the %PATH% environment variable (might require restart)
+- Add the folder to the %PATH% environment variable (requires restart)
 - Check the php version by running `php -v`
 
 ### 
@@ -48,5 +48,8 @@ xdebug.halt_level = E_WARNING|E_NOTICE|E_USER_WARNING|E_USER_NOTICE
 @ECHO OFF
 php "%~dp0composer.phar" %*
 ```
-- Add the folder to the %PATH% environment variable
-
+- Add the folder to the %PATH% environment variable (requires restart)
+- Verify by running:
+```powershell
+> composer --version
+```
