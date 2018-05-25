@@ -2,8 +2,22 @@
 
 ## Setting up PHP for Windows
 
-- PHP: https://windows.php.net/download
-- Enable required plugins
+- Download php at https://windows.php.net/download
+- Extract the contents of the archive to a folder (e.g. `x:/php`)
+- Change the `php.ini-development` to `php.ini`
+- Add the folder to the %PATH% environment variable (might require restart)
+- Check the php version by running `php -v`
+
+### 
+
+### Enable extensions
+- Enable required plugins by removing the `;` sign before the extensions
+```ini
+# This line
+;extension = extension_name
+# Becomes this line
+extension = extension_name
+```
 
 ### XDebug: 
 - Download at https://xdebug.org/download.php
@@ -24,3 +38,15 @@ xdebug.scream = 1
 ; warnings get converted to errors
 xdebug.halt_level = E_WARNING|E_NOTICE|E_USER_WARNING|E_USER_NOTICE
 ```
+
+### Composer:
+- Go to the folder where you want composer installed
+- Look up the commands to run at https://getcomposer.org/download/
+- Run the commands
+- Create a `composer.bat` file in the same folder and add the following content:
+```batch
+@ECHO OFF
+php "%~dp0composer.phar" %*
+```
+- Add the folder to the %PATH% environment variable
+
