@@ -15,3 +15,6 @@ of languages surrounding these.
 - ESLint
 - SassLint
 - EditorConfig
+
+## Terminal
+(Windows only) set terminal to powershell.exe instead of cmd.exe
