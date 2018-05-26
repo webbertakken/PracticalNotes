@@ -2,6 +2,7 @@
 Personal notes
 
 - Setup
+  - [Browsers](Setup/Browsers.md)
   - [Developer tools](Setup/DevTools.md)
 
 - Azure
