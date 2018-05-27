@@ -9,6 +9,7 @@ of languages surrounding these.
 - Symfony Plugin
 - PHP Annotations
 - PHP Toolbox
+- Adders/Removers Generator
 - PHP Inspections (EA Extended)
 - PHPUnit Enhancement
 - Twig
