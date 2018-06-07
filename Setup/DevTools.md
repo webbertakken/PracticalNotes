@@ -8,7 +8,7 @@
 [//]: # (Dependencies: WSL)
 - MariaDB - https://mariadb.com/downloads/mariadb-tx
 - Git
-- Go - https://golang.org/doc/install
+- [Go](DevTools/GoLang.md) - https://golang.org/doc/install
 - Python (including pip)
 - [PHP](DevTools/Php.md) (including Xdebug, Composer, Symfony, Laravel etc.)
 - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
