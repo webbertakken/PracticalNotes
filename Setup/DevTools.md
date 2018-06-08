@@ -18,6 +18,11 @@
   - [Compose](DevTools/Docker.md#Install-Compose-Docker-Composer)
   - [Kompose](DevTools/Docker.md#Install-Kompose-Kubernetes-Composer)
 
+[//]: # (Dependencies: Hypervisor)
+- [Kubernetes]
+  - [Minikube](DevTools/K8s.md#Install-Minikube)
+  - [Kubectl](DevTools/K8s.md#Install-Kubectl)
+
 [//]: # (Dependencies: Everything)
 - IDE (Choose one)
   - [PhpStorm](DevTools/Ide/PhpStorm.md)
