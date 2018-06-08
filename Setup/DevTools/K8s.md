@@ -27,6 +27,9 @@ $ brew cask install minikube
 
 #### Installation
 Windows:
+```powershell
+\> choco install kubernetes-cli
+```
 
 Linux:
 
