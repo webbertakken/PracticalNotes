@@ -19,7 +19,7 @@
   - [Kompose](DevTools/Docker.md#Install-Kompose-Kubernetes-Composer)
 
 [//]: # (Dependencies: Hypervisor)
-- [Kubernetes]
+- [Kubernetes](DevTools/K8s.md)
   - [Minikube](DevTools/K8s.md#Install-Minikube)
   - [Kubectl](DevTools/K8s.md#Install-Kubectl)
 
