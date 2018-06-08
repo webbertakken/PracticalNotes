@@ -9,8 +9,14 @@ Personal notes
   - [Login](Azure/Login.md)
   - [CLI-settings](Azure/CliSettings.md)
   - Kubernetes
-    - [Commands](Azure/K8sCommands.md)
     - [Prerequisites](Azure/K8sPrerequisites.md)
     - [Cluster Operations](Azure/K8sClusterOperations.md)
     - [Managing Container Registry](Azure/K8sContainerRegistry.md)
     - [Application Deployment](Azure/K8sDeployApplication.md)
+
+- Google Cloud
+  - Login
+  
+- Kubernetes
+  - [Practical concepts (i.e. How to do what?)](K8s/PracticalConcepts.md)
+  - [Commands](K8s/Commands.md)
