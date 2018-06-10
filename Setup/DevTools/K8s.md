@@ -3,21 +3,26 @@
 ## Install Minikube
 [Official documentation](https://github.com/kubernetes/minikube#installation)
 
-#### Prerequisites
+### Prerequisites
 Operating system must have access to a Hypervisor
 
-#### Installation
-Windows:
+### Installation
+#### Windows:
+Install minikube
 ```powershell
 \> choco install minikube
 ```
 
-Linux:
+###### When using Hyper-V:
+Follow this [guide](https://medium.com/@JockDaRock/minikube-on-windows-10-with-hyper-v-6ef0f4dc158c)
+and disable IPv6 on both the default virtual switch and the newly created external virtual switch.
+
+#### Linux:
 ```bash
 $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 ```
 
-MacOS:
+#### MacOS:
 ```bash
 $ brew cask install minikube
 ```
@@ -25,15 +30,15 @@ $ brew cask install minikube
 ## Install Kubectl
 [Official documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl)
 
-#### Installation
-Windows:
+### Installation
+#### Windows:
 ```powershell
 \> choco install kubernetes-cli
 ```
 
-Linux:
+#### Linux:
 
-MacOS:
+#### MacOS:
 ```
 homebrew install kubectl
 ```
