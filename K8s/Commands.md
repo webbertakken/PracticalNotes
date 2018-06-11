@@ -71,8 +71,32 @@ For example:
 kubectl label pods foo unhealthy=true
 ```
 
-## Local management
+## Application Scaling
 
+#### Scale a deployment
+```bash
+$ kubectl scale deployment <deployment name> --replicas=<number>
+```
+
+#### Expose the NodePort
+Expose 
+```bash
+$ kubectl expose deployment <deployment name> --type=NodePort
+```
+
+#### Set a LoadBalancer
+Set a LoadBalancer service to talk to the NodePorts
+```bash
+$ kubectl expose deployment <deployment name> --type=LoadBalancer --port=8080 --target-port=8080 --name <LoadBalancer service name>
+```
+
+### Inspect the loadbalancer
+```bash
+$ kubectl describe services tomcat-load-balancer
+```
+External IP is given through DNS system of the cloud provider.
+
+## Local management
 #### Port forwarding
 Forward a local port (on the machine where kubectl is run from) to a pod
 ```bash
