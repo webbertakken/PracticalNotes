@@ -42,3 +42,17 @@ $ brew cask install minikube
 ```
 homebrew install kubectl
 ```
+
+## Install Heapster, InfluxDB, Grafana
+On minikube, enable addons:
+```bash
+$ minikube addons enable heapster
+```
+Wait for it to be up
+```bash
+$ kubectl get pods --namespace=kube-system --watch
+```
+Then open the dashboard using Grafana Dashboard
+```bash
+$ kubectl addons open heapster
+```
