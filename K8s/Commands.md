@@ -6,9 +6,7 @@ See the official documentation for the kubectl
 and 
 [reference](https://kubernetes.io/docs/reference/).
 
-
 ## Status management
-
 #### Get cluster nodes
 ```
 $ kubectl get nodes
@@ -34,16 +32,41 @@ $ kubectl describe pod [pod name]
 $ kubectl get deployment,svc,pods,pvc
 ```
 
+#### Get namespaces
+```
+$ kubectl get namespace
+```
+
+#### Resource management
+```bash
+$ kubectl addons open heapster
+```
+
 ## Application management
 
 #### Deployment from Container Registry
 
 See [Kubernetes Container Registry](K8sContainerRegistry.md) commands.
 
+#### Create new namespace
+```bash
+$ kubectl create namespace <namespace name>
+```
+
+#### Set a ResourceQuota
+Create the ResourceQuota
+```bash
+$ kubectl create -f <resource-quota name>.yaml [--namespace=<target namespace>]
+```
+Confirm it's creation
+```bash
+$ kubectl get resourcequote [--namespace=<target namespace>]
+```
+
 #### Create new application
 run a specified deployment
 ```
-$ kubectl create -f azure-application.yaml
+$ kubectl create -f <deployment name>.yaml [--namespace=<target namespace>]
 ```
 
 or run a particular image:
@@ -53,13 +76,20 @@ $ kubectl run <desired name> --image=<docker image name> [--port=<portnumber>]
 
 #### Expose a port
 Expose a port for a resource (deployment, pod or other)
-```
+```bash
 $ kubectl expose <type name> <identifier name> [--port=external port] [--target-port=container-port] [--type=service-type]
 ```
-Exampe command:
-```
+Example command:
+```bash
 $ kubectl expose deployment symfony-deployment --type=NodePort
 ```
+
+#### Inspect the deployment
+```bash
+$ kubectl describe deployment <deployment name> --namespace=<namespace name>
+```
+
+## Misc Commands
 
 #### Label a resource
 Update a label on a resource
@@ -70,6 +100,28 @@ For example:
 ```bash
 kubectl label pods foo unhealthy=true
 ```
+
+#### Deployment commands
+```bash
+$ kubectl get deployments
+$ kubectl rollout status
+$ kubectl set image
+$ kubectl rollout history
+```
+
+## Secrets
+
+#### Creating a secret
+Example command for creating a secret
+```bash
+$ kubectl create secret generic <secret name> --from-literal=password=<somepassword>
+```
+
+#### List secrets
+```bash
+$ kubectl get secret
+```
+
 
 ## Application Scaling
 
@@ -96,7 +148,19 @@ $ kubectl describe services tomcat-load-balancer
 ```
 External IP is given through DNS system of the cloud provider.
 
+## Autoscaling
+Enable Horizontal Pod Autoscaling for a deployment
+```bash
+$ kubectl autoscale deployment <deployment name> --cpu-percent=50 --min=<min pods> --max=<max pods>
+```
+
+Check Horizontal Pod Autoscaling status
+```bash
+$ kubectl get hpa
+```
+
 ## Local management
+
 #### Port forwarding
 Forward a local port (on the machine where kubectl is run from) to a pod
 ```bash
