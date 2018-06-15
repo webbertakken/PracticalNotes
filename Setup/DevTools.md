@@ -23,6 +23,12 @@
   - [Minikube](DevTools/K8s.md#Install-Minikube)
   - [Kubectl](DevTools/K8s.md#Install-Kubectl)
 
+[//]: # (Dependencies: none)
+- Cloud CLI
+  - Amazon ([aws](https://aws.amazon.com/cli/))
+  - Google (gcloud, included in [Google Cloud SDK](https://cloud.google.com/sdk/install))
+  - Azure ([az](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest))
+
 [//]: # (Dependencies: Everything)
 - IDE (Choose one)
   - [PhpStorm](DevTools/Ide/PhpStorm.md)
