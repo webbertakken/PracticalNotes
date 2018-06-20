@@ -14,8 +14,14 @@ Install minikube
 ```
 
 ###### When using Hyper-V:
-Follow this [guide](https://medium.com/@JockDaRock/minikube-on-windows-10-with-hyper-v-6ef0f4dc158c)
-and disable IPv6 on both the default virtual switch and the newly created external virtual switch.
+Follow this [guide](https://medium.com/@JockDaRock/minikube-on-windows-10-with-hyper-v-6ef0f4dc158c) or in short:
+1. Create external virtual switch named "Kubernetes Virtual Switch".
+2. Disable IPv6 on all relevant network adapters.
+3. Create the kubernetes cluster using hyperv and the newly created 
+```powershell
+\> minikube start --vm-driver=hyperv --hyperv-virtual-switch="Kubernetes Virtual Switch" --cpus=3 --memory=4096
+```
+If anything still doesn't work; disable `dynamic memory` in Hyper-V.
 
 #### Linux:
 ```bash

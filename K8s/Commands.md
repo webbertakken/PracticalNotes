@@ -89,6 +89,11 @@ $ kubectl expose deployment symfony-deployment --type=NodePort
 $ kubectl describe deployment <deployment name> --namespace=<namespace name>
 ```
 
+#### (Development) Get loadbalancer ip
+```bash
+$ minikube service <loadbalancer name> --url
+```
+
 ## Misc Commands
 
 #### Label a resource
