@@ -3,10 +3,12 @@
 ## Setting up Docker for Windows
 
 - Download and install Docker CE from the [official website](https://store.docker.com/editions/community/docker-ce-desktop-windows). 
-- Open settings and expose the daemon without TLS (if you understand the risks)
-    - _Exposing the daemon without TLS will open it up for bash in WSL_
-- Turn off experimental features until you need them
-    - _Experimental features produced problems with containers filesystems for me before_ 
+- Open settings and;
+  - Share any drives that will be used to mount from.
+  - Expose the daemon without TLS (if you understand the risks).
+    - _Exposing the daemon without TLS is an easy way to open it up for bash in WSL._
+  - Turn off experimental features until you need them
+    - _Experimental features produced problems with containers filesystems for me before._
 
 ## Setting up Docker for Bash in Linux Subsystem for Windows
 ### Remove any old versions
