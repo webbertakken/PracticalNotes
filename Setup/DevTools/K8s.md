@@ -63,8 +63,8 @@ Then open the dashboard using Grafana Dashboard
 $ kubectl addons open heapster
 ```
 
-## Helm
-#### Installation
+## Helm & Tiller
+#### Install Helm
 ##### Windows
 ```powershell
 choco install kubernetes-helm
@@ -75,13 +75,3 @@ brew install kubernetes-helm
 ```
 ##### Linux
 download from [https://github.com/kubernetes/helm/releases](https://github.com/kubernetes/helm/releases)
-
-#### Initialisation
-Make sure you are connected to the desired cluster
-```bash
-kubectl config current-context
-```
-Then initialise Helm and install Tiller
-```
-helm init
-```
