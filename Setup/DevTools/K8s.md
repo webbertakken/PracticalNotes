@@ -1,6 +1,6 @@
 # Setup Kubernetes tools
 
-## Install Minikube
+## Minikube
 [Official documentation](https://github.com/kubernetes/minikube#installation)
 
 ### Prerequisites
@@ -33,7 +33,7 @@ $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/mini
 $ brew cask install minikube
 ```
 
-## Install Kubectl
+## Kubectl
 [Official documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl)
 
 ### Installation
@@ -49,7 +49,7 @@ $ brew cask install minikube
 homebrew install kubectl
 ```
 
-## Install Heapster, InfluxDB, Grafana
+## Heapster, InfluxDB, Grafana
 On minikube, enable addons:
 ```bash
 $ minikube addons enable heapster
@@ -61,4 +61,27 @@ $ kubectl get pods --namespace=kube-system --watch
 Then open the dashboard using Grafana Dashboard
 ```bash
 $ kubectl addons open heapster
+```
+
+## Helm
+#### Installation
+##### Windows
+```powershell
+choco install kubernetes-helm
+```
+##### MacOS
+```bash
+brew install kubernetes-helm
+```
+##### Linux
+download from [https://github.com/kubernetes/helm/releases](https://github.com/kubernetes/helm/releases)
+
+#### Initialisation
+Make sure you are connected to the desired cluster
+```bash
+kubectl config current-context
+```
+Then initialise Helm and install Tiller
+```
+helm init
 ```
