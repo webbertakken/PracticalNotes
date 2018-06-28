@@ -42,6 +42,16 @@ $ kubectl get namespace
 $ kubectl addons open heapster
 ```
 
+#### Internal network management
+Run a box on the cluster
+```
+kubectl run curl --image=radial/busyboxplus:curl -i --tty
+```
+Then check the internal dns service (example)
+```
+nslookup <service name>
+```
+
 ## Application management
 
 #### Deployment from Container Registry
