@@ -60,7 +60,14 @@ See [Kubernetes Container Registry](K8sContainerRegistry.md) commands.
 
 #### Create new namespace
 ```bash
-$ kubectl create namespace <namespace name>
+$ kubectl create namespace <namespace-name>
+```
+
+#### Change context to that namespace
+```bash
+$ kubectl config set-context $(kubectl config current-context) --namespace=<namespace-name>
+# Validate it
+$ kubectl config view | grep namespace:
 ```
 
 #### Set a ResourceQuota
