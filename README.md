@@ -3,6 +3,7 @@ Personal notes
 
 - Setup
   - [Browsers](Setup/Browsers.md)
+  - [OS components](Setup/OsComponents.md) (Windows only)
   - [Developer tools](Setup/DevTools.md)
 
 - Azure
