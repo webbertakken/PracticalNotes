@@ -1,23 +1,25 @@
 # PracticalNotes
-Personal notes
+The Web-developers Notebook 📓.
+
+---
+
+The aim is to be platform independent, and favor simplicity and best practices
+over comprehensive documentation.
+
+Currently all methods are tested in _Windows 10_ and _Windows Subsystem for
+Linux_ using _ubuntu_ only.
+
+---
 
 - Setup
   - [Browsers](Setup/Browsers.md)
   - [OS components](Setup/OsComponents.md) (Windows only)
   - [Developer tools](Setup/DevTools.md)
 
-- Azure
-  - [Login](Azure/Login.md)
-  - [CLI-settings](Azure/CliSettings.md)
-  - Kubernetes
-    - [Prerequisites](Azure/K8sPrerequisites.md)
-    - [Cluster Operations](Azure/K8sClusterOperations.md)
-    - [Managing Container Registry](Azure/K8sContainerRegistry.md)
-    - [Application Deployment](Azure/K8sDeployApplication.md)
+- Cloud usage
+  - [Azure](Cloud/Azure.md)
+  - [Google Cloud](Cloud/Google.md)
 
-- Google Cloud
-  - Login
-  
 - Kubernetes
-  - [Practical concepts (i.e. How to do what?)](K8s/PracticalConcepts.md)
+  - [Practical concepts](K8s/PracticalConcepts.md)
   - [Commands](K8s/Commands.md)

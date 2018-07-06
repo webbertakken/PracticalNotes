@@ -1,4 +1,4 @@
-# Azure Container Registry
+# Azure - Container Registry
 
 ## Managing Resource Groups
 Create a Resource Group

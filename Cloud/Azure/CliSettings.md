@@ -1,4 +1,4 @@
-# Azure CLI-settings
+# Azure - CLI-settings
 
 #### Default location for new resources
 ```
