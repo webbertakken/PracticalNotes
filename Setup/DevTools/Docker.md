@@ -2,7 +2,7 @@
 
 ## Setting up Docker for Windows
 
-- Download and install Docker CE from the [official website](https://store.docker.com/editions/community/docker-ce-desktop-windows). 
+- Download and install Docker CE from the [official website 🗗](https://store.docker.com/editions/community/docker-ce-desktop-windows).
 - Open settings and;
   - Share any drives that will be used to mount from.
   - Expose the daemon without TLS (if you understand the risks).
@@ -12,7 +12,7 @@
 
 ## Setting up Docker for Bash in Linux Subsystem for Windows
 ### Remove any old versions
-Prevent troubleshooting as per [MS WSL #2288](https://github.com/Microsoft/WSL/issues/2288):
+Prevent troubleshooting as per [MS WSL #2288 🗗](https://github.com/Microsoft/WSL/issues/2288):
 ```
 $ sudo rm /var/lib/dpkg/info/docker.prerm
 $ sudo rm /var/lib/dpkg/info/docker.io.prerm
@@ -50,8 +50,8 @@ Install Docker
 $ sudo apt-get install docker-ce
 ```
 
-Or otherwise [official documentation](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-or this [blogpost from Tomas Lycken](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/).
+Or otherwise [official documentation 🗗](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+or this [blogpost from Tomas Lycken 🗗](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/).
 
 ### Connecting Docker to Docker Daemon on Windows
 
@@ -75,11 +75,13 @@ If so, add it to our bashrc, to persist the change
 $ echo "export DOCKER_HOST='tcp://0.0.0.0:2375'" >> ~/.bashrc
 ```
 
-In case this method does not work anymore, have a look at this [blogpost from Tomas Lycken](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/) and check for any updates.
+In case this method does not work anymore, have a look at this
+[blogpost from Tomas Lycken 🗗](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/)
+and check for any updates.
 
 ## Install Compose (Docker Composer)
 
-See below or read the [Compose official documentation](https://docs.docker.com/compose/install/).
+See below or read the [Compose official documentation 🗗](https://docs.docker.com/compose/install/).
 
 ### Windows
 Docker CE for Windows already includes Compose.
@@ -97,7 +99,7 @@ $ docker-compose
 
 ## Install Kompose (Kubernetes Composer)
 
-See below or read the [Kompose official documentation](https://kubernetes.io/docs/tools/kompose/user-guide/#installation).
+See below or read the [Kompose official documentation 🗗](https://kubernetes.io/docs/tools/kompose/user-guide/#installation).
 
 ### Linux
 ```

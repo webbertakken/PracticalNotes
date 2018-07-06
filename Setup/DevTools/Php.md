@@ -1,7 +1,7 @@
 # Setup PHP
 
 ## Windows
-- Download php at https://php.net/download
+- Download php at [php.net/download 🗗](https://php.net/download)
 - Extract the contents of the archive to a folder (e.g. `x:/php`)
 - Change the `php.ini-development` to `php.ini`
 - Add the folder to the %PATH% environment variable (requires restart)
@@ -45,7 +45,7 @@ opcache.revalidate_freq=1
 ```
 
 #### XDebug
-- Download at https://xdebug.org/download.php
+- Download at [https://xdebug.org/download.php 🗗](https://xdebug.org/download.php)
 - Rename the dll to php_xdebug.dll and add it to the ext folder within php
 - Enable the extension adding this to php.ini (locate by running `php --ini`)
 - Change the extension path to reflect your OS and installation
@@ -97,7 +97,7 @@ $ sudo apt-get install php7.2-common \
 
 ## Composer
 - Go to the folder where you want Composer installed
-- Look up and run the commands to run at [https://getcomposer.org/download/](https://getcomposer.org/download/)
+- Look up and run the commands to run at [https://getcomposer.org/download/ 🗗](https://getcomposer.org/download/)
 - (Windows only) Create a `composer.bat` file in the same folder and add the following contents:
 ```batch
 @ECHO OFF
@@ -113,7 +113,8 @@ $ composer --version
 Note: Symfony4 uses composer to create its project, for Symfony3 or earlier follow these steps:
 
 - Go to the folder where you want Symfony-CLI installed
-- Look up the commands to run at https://github.com/symfony/symfony-installer
+- Look up the commands to run at
+[https://github.com/symfony/symfony-installer 🗗](https://github.com/symfony/symfony-installer)
 - Run the commands
 - (Windows only) Create a `symfony.bat` file in the same folder and add the following contents:
 ```batch

@@ -1,7 +1,7 @@
 # Setup Kubernetes tools
 
 ## Minikube
-[Official documentation](https://github.com/kubernetes/minikube#installation)
+[Official documentation 🗗](https://github.com/kubernetes/minikube#installation)
 
 ### Prerequisites
 Operating system must have access to a Hypervisor
@@ -14,10 +14,10 @@ Install minikube
 ```
 
 ###### When using Hyper-V:
-Follow this [guide](https://medium.com/@JockDaRock/minikube-on-windows-10-with-hyper-v-6ef0f4dc158c) or in short:
+Follow this [guide 🗗](https://medium.com/@JockDaRock/minikube-on-windows-10-with-hyper-v-6ef0f4dc158c) or in short:
 1. Create external virtual switch named "Kubernetes Virtual Switch".
 2. Disable IPv6 on all relevant network adapters.
-3. Create the kubernetes cluster using hyperv and the newly created 
+3. Create the kubernetes cluster using hyperv and the newly created
 ```powershell
 \> minikube start --vm-driver=hyperv --hyperv-virtual-switch="Kubernetes Virtual Switch" --cpus=3 --memory=4096
 ```
@@ -34,7 +34,7 @@ $ brew cask install minikube
 ```
 
 ## Kubectl
-[Official documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl)
+[Official documentation 🗗](https://kubernetes.io/docs/tasks/tools/install-kubectl)
 
 ### Installation
 #### Windows:
@@ -74,4 +74,4 @@ choco install kubernetes-helm
 brew install kubernetes-helm
 ```
 ##### Linux
-download from [https://github.com/kubernetes/helm/releases](https://github.com/kubernetes/helm/releases)
+download from [https://github.com/kubernetes/helm/releases 🗗](https://github.com/kubernetes/helm/releases)

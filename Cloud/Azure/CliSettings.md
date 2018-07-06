@@ -2,5 +2,5 @@
 
 #### Default location for new resources
 ```
-$ az configure --defaults location=westeurope
+$ az configure --defaults location=<location>
 ```

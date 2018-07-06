@@ -1,6 +1,7 @@
 # Azure - Cloud usage
 Documented from a practical perspective.
 
+- [Install](Azure/Install.md)
 - [Login](Azure/Login.md)
 - [CLI-settings](Azure/CliSettings.md)
 - Kubernetes

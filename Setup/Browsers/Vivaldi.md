@@ -2,11 +2,11 @@
 
 ## Installation
 
-- Download and install from https://vivaldi.com
+- Download and install from [vivaldi.com 🗗](https://vivaldi.com)
 
 ## Synchronisation
 
-- Setup sync at [Tools > Settings > Sync](vivaldi://settings/sync/)
+- Setup sync at [Tools > Settings > Sync 🗗](vivaldi://settings/sync/)
 
 ## Settings
 

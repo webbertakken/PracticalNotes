@@ -11,7 +11,7 @@ The following link shows a walkthrough with an example app.
 #### Connecting to Kube Cluster
 To connect use the following command:
 ```
-$ az aks get-credentials --resource-group apps-takken-io --name cluster1-kube-takken-io
+$ az aks get-credentials --resource-group=<ResourceGroup> --name <ClusterName>
 ```
 Your kubectl is now configured to work with given cluster.
 

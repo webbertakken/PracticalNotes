@@ -1,7 +1,7 @@
 # Setup PhpStorm
 
 ## Configuration
-Setup your PhpStorm configuration or install [my configuration](https://github.com/webbertakken/PHPStormSettings)
+Setup your PhpStorm configuration or install [Webber's configuration 🗗](https://github.com/webbertakken/PHPStormSettings)
 which is already setup for use with PHP (PSR-1, 2, Symfony), Javascript (ES6, JSX, React, Stage-0) and an array
 of languages surrounding these.
 

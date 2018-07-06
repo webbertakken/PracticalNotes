@@ -6,14 +6,14 @@
 - [Linux Bash (WSL)](DevTools/Bash.md)
 
 [//]: # (Dependencies: WSL)
-- MariaDB - https://mariadb.com/downloads/mariadb-tx
+- MariaDB - [https://mariadb.com/downloads/mariadb-tx 🗗](https://mariadb.com/downloads/mariadb-tx)
 - Git
-- [Go](DevTools/GoLang.md) - https://golang.org/doc/install
+- [Go](DevTools/GoLang.md) - [https://golang.org/doc/install 🗗](https://golang.org/doc/install)
 - Python (including pip)
 - [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
 - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
-- [VSCode🗗](https://code.visualstudio.com)
-- [Android Studio🗗](https://developer.android.com/studio) (including Android SDK)
+- [VSCode 🗗](https://code.visualstudio.com)
+- [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
 - [Flutter](DevTools/Flutter.md)
 
 [//]: # (Dependencies: Go)
@@ -28,9 +28,9 @@
 
 [//]: # (Dependencies: none)
 - Cloud CLI
-  - Amazon ([aws🗗](https://aws.amazon.com/cli/))
-  - Google (gcloud, included in [Google Cloud SDK🗗](https://cloud.google.com/sdk/install))
-  - Azure ([az🗗](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest))
+  - Amazon ([aws 🗗](https://aws.amazon.com/cli/))
+  - Google (gcloud, included in [Google Cloud SDK 🗗](https://cloud.google.com/sdk/install))
+  - Azure ([az 🗗](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest))
 
 [//]: # (Dependencies: Everything)
 - IDE (Choose one)

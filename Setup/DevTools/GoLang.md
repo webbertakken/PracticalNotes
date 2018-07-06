@@ -15,4 +15,4 @@ Verify the installation by running
 $ go env
 ```
 
-Script [source](https://stefanprodan.com/2016/golang-bash-on-windows-installer/), by [Stefan prodan](https://stefanprodan.com)
+Script [source 🗗](https://stefanprodan.com/2016/golang-bash-on-windows-installer/), by [Stefan prodan 🗗](https://stefanprodan.com)
