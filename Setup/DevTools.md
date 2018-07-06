@@ -12,6 +12,8 @@
 - Python (including pip)
 - [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
 - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
+- [VSCode](https://code.visualstudio.com)
+- [Android Studio](developer.android.com/studio) (including Android SDK)
 - [Flutter](DevTools/Flutter.md)
 
 [//]: # (Dependencies: Go)
