@@ -8,4 +8,4 @@ Open `Turn Windows features on or off` and select the following tickboxes:
 - Windows Hypervisor Platform
 - Windows PowerShell 2.0
 
-Restart the computer.
+Restart the machine.
