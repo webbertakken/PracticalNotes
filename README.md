@@ -1,5 +1,5 @@
 # PracticalNotes
-___The Web-developers Notebook 📓___.
+___The Web-developer's Notebook 📓___
 
 ---
 
