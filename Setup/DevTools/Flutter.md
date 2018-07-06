@@ -5,6 +5,6 @@ Follow the official installation steps on [https://flutter.io/get-started/instal
 
 Check if all requirements are met using 
 ```bash
-$ flutter doctor
+$ flutter doctor -v
 ```
 
