@@ -1,5 +1,5 @@
 # PracticalNotes
-The Web-developers Notebook 📓.
+___The Web-developers Notebook 📓___.
 
 ---
 
@@ -11,15 +11,15 @@ Linux_ using _ubuntu_ only.
 
 ---
 
-- Setup
-  - [Browsers](Setup/Browsers.md)
-  - [OS components](Setup/OsComponents.md) (Windows only)
-  - [Developer tools](Setup/DevTools.md)
+#### Setup
+- [Browsers](Setup/Browsers.md)
+- [OS components](Setup/OsComponents.md) _(Windows only)_
+- [Developer tools](Setup/DevTools.md)
 
-- Cloud usage
-  - [Azure](Cloud/Azure.md)
-  - [Google Cloud](Cloud/Google.md)
+#### Cloud usage
+- [Azure](Cloud/Azure.md)
+- [Google Cloud](Cloud/Google.md)
 
-- Kubernetes
-  - [Practical concepts](K8s/PracticalConcepts.md)
-  - [Commands](K8s/Commands.md)
+#### Kubernetes
+- [Practical concepts](K8s/PracticalConcepts.md)
+- [Commands](K8s/Commands.md)
