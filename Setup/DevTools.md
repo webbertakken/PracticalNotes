@@ -12,6 +12,7 @@
 - Python (including pip)
 - [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
 - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
+- [Flutter](DevTools/Flutter.md)
 
 [//]: # (Dependencies: Go)
 - [Docker](DevTools/Docker.md)
