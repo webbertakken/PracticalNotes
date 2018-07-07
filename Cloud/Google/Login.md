@@ -2,7 +2,7 @@
 
 
 #### Login
-___Note:__ Make sure the Google Cloud SDK is [initialised](./install.md)._
+___Note:__ Make sure the Google Cloud SDK is [initialised](./Install.md)._
 
 Then, run
 ```bash
