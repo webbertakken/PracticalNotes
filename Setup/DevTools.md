@@ -3,18 +3,20 @@
 [//]: # (Note that the order of these does matter, when seperated by a new line)
 
 [//]: # (Dependencies: none)
-- [Linux Bash (WSL)](DevTools/Bash.md)
+- Shells
+  - [Windows](DevTools/Shells/Windows.md)
 
 [//]: # (Dependencies: WSL)
-- MariaDB - [https://mariadb.com/downloads/mariadb-tx 🗗](https://mariadb.com/downloads/mariadb-tx)
-- Git
-- [Go](DevTools/GoLang.md) - [https://golang.org/doc/install 🗗](https://golang.org/doc/install)
-- Python (including pip)
-- [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
-- [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
-- [VSCode 🗗](https://code.visualstudio.com)
-- [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
-- [Flutter](DevTools/Flutter.md)
+- Runtimes & CLIs
+  - MariaDB - [https://mariadb.com/downloads/mariadb-tx 🗗](https://mariadb.com/downloads/mariadb-tx)
+  - Git
+  - [Go](DevTools/GoLang.md) - [https://golang.org/doc/install 🗗](https://golang.org/doc/install)
+  - Python (including pip)
+  - [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
+  - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
+  - [VSCode 🗗](https://code.visualstudio.com)
+  - [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
+  - [Flutter](DevTools/Flutter.md)
 
 [//]: # (Dependencies: Go)
 - [Docker](DevTools/Docker.md)
