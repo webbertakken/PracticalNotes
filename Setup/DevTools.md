@@ -4,6 +4,8 @@
 
 [//]: # (Dependencies: none)
 - Shells
+  - Linux
+  - MacOS
   - [Windows](DevTools/Shells/Windows.md)
 
 [//]: # (Dependencies: WSL)
