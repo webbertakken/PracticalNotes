@@ -12,8 +12,9 @@ Linux_ using _ubuntu_ only.
 ---
 
 #### Setup
-- [Browsers](Setup/Browsers.md)
 - [OS components](Setup/OsComponents.md) _(Windows only)_
+- [Package Managers](Setup/PackageManagers.md)
+- [Browsers](Setup/Browsers.md)
 - [Developer tools](Setup/DevTools.md)
 
 #### Cloud usage
