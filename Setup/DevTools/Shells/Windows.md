@@ -1,6 +1,16 @@
-# Setup Bash in Windows Subsystem for Linux
+# Windows Shells 
+It is recommended to install both Cmder and Ubuntu bash, for maximum flexibility.
 
-## Installing bash in Windows Subsystem for Linux
+## Cmder
+Open powershell with administrative permissions and use chocolatey to install Cmder
+
+```powershell
+\> choco install cmder
+```
+
+## Ubuntu Bash in Windows Subsystem for Linux
+
+#### Installation
 
 - Go to `Settings` > `Apps & features`
 - Under "Related settigns" click on `Programs and Features`
