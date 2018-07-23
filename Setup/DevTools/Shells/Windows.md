@@ -31,8 +31,7 @@ $ sudo apt-get install \
 ```
 
 ## ConEmu or Cmder
-ConEmu is a console emulator, with many features. Cmder a layer on top of ConEmu. 
-Pick the one of your preference.
+ConEmu is a console emulator, with many features. Cmder a layer on top of ConEmu.
 
 #### Installation
 Open powershell with administrative permissions and use chocolatey to install either 
