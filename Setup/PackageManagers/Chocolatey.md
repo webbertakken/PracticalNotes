@@ -9,7 +9,7 @@ Choose the folder where packages are
 by setting the environment variable to desired directory.
 
 ```powershell
-\> $env:ChocolateyBinRoot="C:\dev\"
-\> $env:ChocolateyToolsLocation="C:\dev\"
-\> $env:InstallDir="C:\dev\"
+\> $env:ChocolateyBinRoot="C:\Tools\"
+\> $env:ChocolateyToolsLocation="C:\Tools\"
+\> $env:InstallDir="C:\Tools\"
 ```
