@@ -1,4 +1,13 @@
 # Setup PhpStorm
+PhpStorm is not free unless you have an open source or student license. 
+It is however very mature and comes well recommended.
+
+## Installation
+Install PHPStorm in _one of two_ ways
+- Download
+[JetBrains Toolbox 🗗](https://www.jetbrains.com/toolbox/download/) 
+and use it to install PhpStorm
+- Download PhpStorm [directly 🗗](https://www.jetbrains.com/phpstorm/download/)
 
 ## Configuration
 Setup your PhpStorm configuration or install [Webber's configuration 🗗](https://github.com/webbertakken/PHPStormSettings)
