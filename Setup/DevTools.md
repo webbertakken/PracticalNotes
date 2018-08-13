@@ -11,7 +11,7 @@
 [//]: # (Dependencies: Shells)
 - IDE
   - [PhpStorm](DevTools/Ide/PhpStorm.md)
-  - [VSCode 🗗](https://code.visualstudio.com)
+  - [VSCode](DevTools/Ide/VsCode.md)
   - [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
 
 [//]: # (Dependencies: WSL)
