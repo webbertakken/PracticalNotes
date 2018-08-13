@@ -8,6 +8,12 @@
   - MacOS
   - [Windows](DevTools/Shells/Windows.md)
 
+[//]: # (Dependencies: Shells)
+- IDE
+  - [PhpStorm](DevTools/Ide/PhpStorm.md)
+  - [VSCode 🗗](https://code.visualstudio.com)
+  - [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
+
 [//]: # (Dependencies: WSL)
 - Runtimes & CLIs
   - MariaDB - [https://mariadb.com/downloads/mariadb-tx 🗗](https://mariadb.com/downloads/mariadb-tx)
@@ -16,8 +22,6 @@
   - Python (including pip)
   - [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
   - [Node.js](DevTools/Node.md) (including NPM, Yarn, Gulp etc.)
-  - [VSCode 🗗](https://code.visualstudio.com)
-  - [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
   - [Flutter](DevTools/Flutter.md)
 
 [//]: # (Dependencies: Go)
@@ -35,7 +39,3 @@
   - Amazon ([aws 🗗](https://aws.amazon.com/cli/))
   - Google (gcloud, included in [Google Cloud SDK 🗗](https://cloud.google.com/sdk/install))
   - Azure ([az 🗗](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest))
-
-[//]: # (Dependencies: Everything)
-- IDE (Choose one)
-  - [PhpStorm](DevTools/Ide/PhpStorm.md)
