@@ -16,8 +16,8 @@
 
 [//]: # (Dependencies: WSL)
 - Runtimes & CLIs
+  - [Git](DevTools/Git.md)
   - MariaDB - [https://mariadb.com/downloads/mariadb-tx 🗗](https://mariadb.com/downloads/mariadb-tx)
-  - Git
   - [Go](DevTools/GoLang.md) - [https://golang.org/doc/install 🗗](https://golang.org/doc/install)
   - Python (including pip)
   - [PHP](DevTools/Php.md) (including XDebug, Composer, Symfony etc.)
