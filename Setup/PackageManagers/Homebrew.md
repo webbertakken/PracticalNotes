@@ -17,7 +17,7 @@ brew doctor
 
 You will be offered to install the *Command Line Developer Tools* from *Apple*. **Confirm by clicking *Install***. After the installation finished, continue installing *Homebrew* by **hitting `Return`** again.
 
-#### Source
-[gist 🗗](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md)
+## Credits
+[Gist 🗗](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md)
 from
 [derhuerst 🗗](https://github.com/derhuerst)
