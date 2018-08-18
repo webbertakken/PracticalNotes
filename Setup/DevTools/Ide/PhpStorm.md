@@ -25,6 +25,7 @@ of languages surrounding these.
 - ESLint
 - SassLint
 - EditorConfig
+- Import Cost
 
 ## Terminal
 (Windows only) set terminal to powershell.exe instead of cmd.exe
