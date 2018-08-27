@@ -7,6 +7,9 @@ It is also very light weight and has a great deal of language and plugin support
 and install Visual Studio Code 
 
 ## Plugins
+### General
+- [Editorconfig 🗗](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
 ### Theming
 - [Material Theme 🗗](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
