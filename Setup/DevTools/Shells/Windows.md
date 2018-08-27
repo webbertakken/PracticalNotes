@@ -40,6 +40,8 @@ Open powershell with administrative permissions and use chocolatey to install Cm
 \> choco install cmder
 ```
 
+**Temporary fix: (while choco version of cmder <= 1.3.5) download the full package from [cmder.net 🗗](http://cmder.net/) and overwrite any files in the cmder folder.**
+
 #### Common sense settings
 Go to `Settings` > `General` and tick:
 - [x] `Single instance mode (use existing window instead of running new instances)`
