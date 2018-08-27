@@ -68,3 +68,14 @@ Name the task `Multi`, tick all boxes and set the following commands in the text
 ```
 
 Make sure not to set the `/dir`-parameter, so that external applications can provide their default directory.
+
+#### IDE Integration
+##### Integrate with IntelliJ IDE (Webstorm, PhpStorm, PyCharm etc.)
+- Open the IDE and go to `Settings` > `Tools` > `Terminal`.
+- Set `Shell path` to the Cmder executable file.
+
+##### Integrate with VS Code
+- Open VS Code and go to `File` > `Preferences` > `Settings`.
+- Search for terminal
+- Set `"terminal.explorerKind"` to `"external"`
+- Set `"terminal.external"` exec settings for your OS to the Cmder executable file.
