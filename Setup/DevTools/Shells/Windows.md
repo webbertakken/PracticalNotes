@@ -1,7 +1,8 @@
 # Windows Shells 
 It is recommended to install both Ubuntu bash and Cmder or Conemu, for maximum flexibility.
 
-## Ubuntu Bash in Windows Subsystem for Linux
+## Ubuntu in WSL
+Install Ubuntu Bash in Windows Subsystem for Linux
 
 #### Installation
 
@@ -30,47 +31,40 @@ $ sudo apt-get install \
     software-properties-common
 ```
 
-## ConEmu or Cmder
-ConEmu is a console emulator, with many features. Cmder a layer on top of ConEmu.
+## Cmder
+ConEmu is a console emulator, with many features. Cmder a layer on top of ConEmu that makes your life better.
 
 #### Installation
-Open powershell with administrative permissions and use chocolatey to install either 
-ConEmu or Cmder.
-```powershell
-\> choco install conemu
-```
-or
+Open powershell with administrative permissions and use chocolatey to install Cmder.
 ```powershell
 \> choco install cmder
 ```
 
 #### Common sense settings
-Go to `Settings` > `Main` > `Size & Pos` and tick the boxes for:
+Go to `Settings` > `General` and tick:
+- [x] `Single instance mode (use existing window instead of running new instances)`
+
+Go to `Settings` > `General` > `Size & Pos` and tick the boxes for:
 - [x] `Snap to desktop edges`
 - [x] `restore to active monitor`
 
 #### Quake console
-Once installed enable the quake console in the settings. The default hotkey for 
-opening and closing the quake-style console  is ``ctrl + ` ``.
+Go to `Settings` > `General` > `Quake style` and tick the boxes for:
+- [x] `Quake-style slide down` _(slides your console down from the top)_
+- [x] `Restore inactive window by hotkey`
+- [x] `Restore to active monitor`
+
+The default hotkey for opening and closing the quake-style console  is ``ctrl + ` ``.
 
 #### Example four-panel setup
-Go to `Settings` > `Startup` > `Tasks` and add a new task by pressing the `+`-symbol.
+Go to `Settings` > `Startup` > `Tasks` and add a new task by cloning `cmd::Cmder as Admin`.
 
-Name the task `PS x2 & Bash x2` and tick the boxes:
-- [x] Default task for new console
-- [x] Default shell
-- [x] Taskbar jump lists
+Name the task `Multi`, tick all boxes and set the following commands in the textarea:
+```bash
+*cmd /k ""%ConEmuDir%\..\init.bat" " -new_console:n:t
+*cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s1TVn:t
+*cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s1THn:t
+*cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s2THn:t
+```
 
 Make sure not to set the `/dir`-parameter, so that external applications can provide their default directory.
-
-In the empty text area paste the following snippet to be its contents
-
-```
-powershell.exe -new_console:n:t:PS
-
-powershell.exe -cur_console:s1TVn:t:PS
-
-bash.exe -cur_console:s1THn:t:Bash
-
-bash.exe -cur_console:s2THn:t:Bash
-```
