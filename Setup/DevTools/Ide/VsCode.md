@@ -9,6 +9,13 @@ and install Visual Studio Code
 ## Plugins
 ### General
 - [Editorconfig 🗗](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Format in context menu 🗗](https://marketplace.visualstudio.com/items?itemName=lacroixdavid1.vscode-format-context-menu#overview)
+
+Add the following lines to the settings document to also format on save:
+```json
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+```
 
 ### Theming
 - [Material Theme 🗗](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
