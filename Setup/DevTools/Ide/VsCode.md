@@ -12,7 +12,7 @@ and install Visual Studio Code
 
 ### Theming
 - [Material Theme 🗗](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
-- [Material Icons Theme 🗗](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Material Icon Theme 🗗](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ### Javascript
 - [Import Cost 🗗](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
