@@ -42,7 +42,7 @@ Assuming this is what we want to achieve, the `--global` flag is used.
 #### User credentials
 
 ```bash
-git config --glboal user.name <your-username>
+git config --global user.name <your-username>
 git config --global user.email <your-email-address>
 ```
 
