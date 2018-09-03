@@ -1,43 +1,31 @@
 # Setup Node.js and related tools
 
-## Windows
-Official documentation
+## Install
 
-
-#### Using Chocolatey
+#### MacOS
+Using Homebrew
 ```
-> cinst nodejs.install
-```
-
-#### Using Scoop
-```
-> scoop install nodejs
+brew install node
 ```
 
-### Setup most important tools globally
+#### Windows
+Using Chocolatey
+```PS
+\> choco nodejs.install
+```
+
+Using Scoop
+```PS
+\> scoop install nodejs
+```
+
+#### Linux
+Follow [Node Version Manager 🗗](https://github.com/creationix/nvm) official documentation
+
+## Setup most important tools globally
 Node Package Manager (NPM) comes with the Node.js installation by default.
 
 Install and update NPM, Yarn, Gulp, GruntJs
-```
-> npm install --global npm@latest yarn gulp grunt
-```
-
-## Bash in Windows Subsystem for Linux
-Node.js
-```
-$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-$ sudo apt-get install -y nodejs
-```
-
-Build tools
-```
-$ sudo apt-get install -y build-essential
-```
-
-### Setup most important tools globally
-Node Package Manager (NPM) comes with the Node.js installation by default.
-
-Install and update NPM, Yarn, Gulp, GruntJs
-```
+```bash
 $ sudo npm install --global npm@latest yarn gulp grunt
 ```
