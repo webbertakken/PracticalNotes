@@ -12,7 +12,7 @@ Linux_ using _ubuntu_ only.
 ---
 
 #### Setup
-- [OS components](Setup/OsComponents.md) _(Windows only)_
+- [OS components](Setup/OsComponents.md)
 - [Package Managers](Setup/PackageManagers.md)
 - [Browsers](Setup/Browsers.md)
 - [Developer tools](Setup/DevTools.md)
