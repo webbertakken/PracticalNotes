@@ -6,9 +6,6 @@ ___The Web-developer's Notebook 📓___
 The aim is to be platform independent, and favor simplicity and best practices
 over comprehensive documentation.
 
-Currently all methods are tested in _Windows 10_ and _Windows Subsystem for
-Linux_ using _ubuntu_ only.
-
 ---
 
 #### Setup
