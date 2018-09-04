@@ -1,5 +1,4 @@
-# Windows Shells 
-It is recommended to install both Ubuntu bash and Cmder or Conemu, for maximum flexibility.
+# Windows Shells
 
 ## Cmder
 ConEmu is a console emulator, with many features. Cmder a layer on top of ConEmu that makes your life better.
