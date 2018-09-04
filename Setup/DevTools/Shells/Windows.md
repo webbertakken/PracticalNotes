@@ -71,6 +71,8 @@ Name the task `Multi`, tick all boxes and set the following commands in the text
 
 Make sure not to set the `/dir`-parameter, so that external applications can provide their default directory.
 
+Then go to `Settings` > `Startup` and choose `Multi` as the `Specified named task` to set it as default.
+
 #### IDE Integration
 ##### Integrate with IntelliJ IDE (Webstorm, PhpStorm, PyCharm etc.)
 - Open the IDE and go to `Settings` > `Tools` > `Terminal`.
