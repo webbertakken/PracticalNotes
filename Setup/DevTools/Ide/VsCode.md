@@ -7,6 +7,10 @@ It is also very light weight and has a great deal of language and plugin support
 and install Visual Studio Code 
 
 ## Plugins
+There is an [Awesome list](https://github.com/viatsko/awesome-vscode) availabe for VS Code. 
+
+Below you will find my personal short list in a few categories.
+
 ### General
 - [Editorconfig 🗗](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [Format in context menu 🗗](https://marketplace.visualstudio.com/items?itemName=lacroixdavid1.vscode-format-context-menu#overview)
