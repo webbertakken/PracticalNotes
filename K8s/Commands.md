@@ -24,7 +24,12 @@ $ kubectl get pods [--watch]
 
 #### Get detailed information about a pod
 ```
-$ kubectl describe pod [pod name]
+$ kubectl describe pod <pod name>
+```
+
+#### Get logs for a pod that crashed
+```
+$ kubectl logs <pod name> [-p]
 ```
 
 #### Get state of currently deployed resources
