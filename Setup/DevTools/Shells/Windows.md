@@ -9,7 +9,7 @@ Open powershell with administrative permissions and use chocolatey to install Cm
 \> choco install cmder
 ```
 
-**Temporary fix: (while choco version of cmder <= 1.3.5) download the full package from [cmder.net 🗗](http://cmder.net/) and overwrite any files in the cmder folder.**
+**Temporary fix: (while choco version of cmder <= 1.3.6) download the full package from [cmder.net 🗗](http://cmder.net/) and overwrite any files in the cmder folder. Downloading version >= 1.3.6 will make sure the contexts current path is loaded in.**
 
 #### Common sense settings
 Go to `Settings` > `General` and tick:
