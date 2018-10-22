@@ -25,7 +25,7 @@ Follow [Node Version Manager 🗗](https://github.com/creationix/nvm) official d
 ## Setup most important tools globally
 Node Package Manager (NPM) comes with the Node.js installation by default.
 
-Install and update NPM, Yarn, Gulp, GruntJs
+Install and update NPM, Yarn, Gulp, GruntJs, Firebase tools
 ```bash
-$ sudo npm install --global npm@latest yarn gulp grunt
+$ npm install --global npm yarn gulp grunt firebase-tools
 ```
