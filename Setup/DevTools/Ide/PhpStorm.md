@@ -28,4 +28,4 @@ of languages surrounding these.
 - Import Cost
 
 ## Terminal
-(Windows only) set terminal to powershell.exe instead of cmd.exe
+(Windows only) set terminal shell path to `Cmder.exe`.
