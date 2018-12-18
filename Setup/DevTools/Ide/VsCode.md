@@ -30,3 +30,7 @@ Add the following lines to the settings document to also format on save:
 - [ES7 React/Redux/GraphQL/React-Native snippets 🗗](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 - [Sublime Babel 🗗](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode)
 - [Live Server 🗗](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+### Terraform
+- [Terraform 🗗](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)
+- [Terraform doc snippets 🗗](https://marketplace.visualstudio.com/items?itemName=run-at-scale.terraform-doc-snippets)
