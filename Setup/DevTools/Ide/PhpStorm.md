@@ -15,6 +15,11 @@ which is already setup for use with PHP (PSR-1, 2, Symfony), Javascript (ES6, JS
 of languages surrounding these.
 
 ## Plugins
+
+#### General
+- EditorConfig
+
+#### PHP
 - Symfony Plugin
 - PHP Annotations
 - PHP Toolbox
@@ -22,10 +27,17 @@ of languages surrounding these.
 - PHP Inspections (EA Extended)
 - PHPUnit Enhancement
 - Twig
+
+#### Javascript
 - ESLint
 - SassLint
-- EditorConfig
 - Import Cost
+
+#### Cloud
+- Kubernetes
+- Kubernetes and OpenShift Resource Support
+- HashiCorp Terraform
+
 
 ## Terminal
 (Windows only) set terminal shell path to `Cmder.exe`.
