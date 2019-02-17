@@ -21,6 +21,9 @@ of languages surrounding these.
 
 #### PHP
 - Symfony Plugin
+- Laravel Plugin
+- LaravelStorm
+- Laravel Snippets
 - PHP Annotations
 - PHP Toolbox
 - Adders/Removers Generator
@@ -37,7 +40,6 @@ of languages surrounding these.
 - Kubernetes
 - Kubernetes and OpenShift Resource Support
 - HashiCorp Terraform
-
 
 ## Terminal
 (Windows only) set terminal shell path to `Cmder.exe`.
