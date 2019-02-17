@@ -22,6 +22,8 @@
 ___Note:__ do not use `php_<ext>.dll` or `<ext>.so`, but instead just use `<ext>`.
 
 ```ini
+extension=curl
+extension=fileinfo
 extension=intl
 extension=mbstring
 extension=openssl
@@ -120,4 +122,10 @@ Note: Symfony4 uses composer to create its project, for Symfony3 or earlier foll
 ```batch
 @ECHO OFF
 php "%~dp0symfony" %*
+```
+
+## Laravel
+Install the laravel installer globally, to be able to run `laravel` from the command line.
+```bash
+composer global require laravel/installer
 ```
