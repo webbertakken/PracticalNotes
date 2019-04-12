@@ -12,6 +12,7 @@ over comprehensive documentation.
 - [OS components](Setup/OsComponents.md)
 - [Package Managers](Setup/PackageManagers.md)
 - [Browsers](Setup/Browsers.md)
+- [General tools](Setup/GeneralTools.md)
 - [Developer tools](Setup/DevTools.md)
 
 #### Cloud usage
