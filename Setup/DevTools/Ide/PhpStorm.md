@@ -17,8 +17,6 @@ Extra step for Material UI:
 - Under `Appearance & Behaviour`, configure `Material Custom Theme` and select `Material Darker` as preset, then apply.
 - Finally, in `Settings` > `Editor` > `Color Scheme` select `Webber` or your other desired dark compatible color scheme.
 
-## Interface
-
 ## Plugins
 This is a pretty complete list for PHP and Javascript/React development.
 Feel free to skip any that you don't like.
