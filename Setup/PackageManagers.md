@@ -6,7 +6,7 @@
 
 #### Set default install dir (optional)
 
-Run `sysdm.cpl,3` or go to `Control Panel` > `System and Security` > 
+Run `"sysdm.cpl",3` or go to `Control Panel` > `System and Security` > 
 `System` > `Advanced system settings` > `Advanced`.
 
 Click on `Environment Variables` and add the following `User variables` for your user:
