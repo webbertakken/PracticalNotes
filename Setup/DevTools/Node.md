@@ -9,14 +9,17 @@ brew install node
 ```
 
 #### Windows
+Using windows-nvm (Recommended)
+Follow [nvm-windows](https://github.com/coreybutler/nvm-windows) official documentation
+
 Using Chocolatey
 ```PS
-\> choco nodejs.install
+choco nodejs.install
 ```
 
 Using Scoop
 ```PS
-\> scoop install nodejs
+scoop install nodejs
 ```
 
 #### Linux
@@ -27,5 +30,5 @@ Node Package Manager (NPM) comes with the Node.js installation by default.
 
 Install and update NPM, Yarn, Gulp, GruntJs, Firebase tools
 ```bash
-$ npm install --global npm yarn gulp grunt firebase-tools
+npm install --global npm yarn gulp grunt firebase-tools
 ```
