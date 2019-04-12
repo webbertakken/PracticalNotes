@@ -12,7 +12,7 @@
 - IDE
   - [PhpStorm](DevTools/Ide/PhpStorm.md)
   - [VSCode](DevTools/Ide/VsCode.md)
-  - [Android Studio 🗗](https://developer.android.com/studio) (including Android SDK)
+  - [Android Studio](DevTools/Ide/AndroidStudio.md) (incl. Android SDK)
 
 [//]: # (Dependencies: WSL)
 - Runtimes & CLIs
