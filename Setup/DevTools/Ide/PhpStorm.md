@@ -13,31 +13,57 @@ which is already setup for use with PHP (PSR-1, 2, Symfony), Javascript (ES6, JS
 of languages surrounding these.
 
 ## Plugins
+This is a pretty complete list for PHP and Javascript/React development.
+Feel free to skip any that you don't like.
 
 #### General
+- .env files support
+- .ignore
+- Bash Support
 - EditorConfig
+- GitToolBox
+- Ideolog
+- Material Theme UI
+- Markdown Navigator
 
 #### PHP
-- Symfony Plugin
+- Adders/Removers Generator
 - Laravel Plugin
 - LaravelStorm
 - Laravel Snippets
+- PHP Advanced AutoComplete
 - PHP Annotations
-- PHP Toolbox
-- Adders/Removers Generator
+- PHP Composer.json support
 - PHP Inspections (EA Extended)
+- PHP Toolbox
+- PHPUnit Code Coverage
 - PHPUnit Enhancement
+- Symfony Plugin
 - Twig
 
-#### Javascript
+#### Code formatting
 - ESLint
-- SassLint
+- Prettier
+- Stylelint
+
+#### Javascript
 - Import Cost
+- React CSS Modules
+- React PropTypes
+- React Snippets
+- Storybook
 
 #### Cloud
 - Kubernetes
 - Kubernetes and OpenShift Resource Support
 - HashiCorp Terraform
 
+#### Cloud vendors
+- AWS CloudFormation (Amazon)
+- Cloud Code (Google)
+- Alibaba Cloud Toolkit (Alibaba)
+
+#### Awesomeness
+- Nyan Progress Bar
 ## Terminal
 (Windows only) set terminal shell path to `Cmder.exe`.
