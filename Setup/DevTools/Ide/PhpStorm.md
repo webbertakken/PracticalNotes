@@ -4,10 +4,8 @@ It is however very mature and comes well recommended.
 
 ## Installation
 Install PHPStorm in _one of two_ ways
-- Download
-[JetBrains Toolbox 🗗](https://www.jetbrains.com/toolbox/download/) 
-and use it to install PhpStorm
-- Download PhpStorm [directly 🗗](https://www.jetbrains.com/phpstorm/download/)
+- Download using [JetBrains Toolbox 🗗](https://www.jetbrains.com/toolbox/download/) (Recommended); or
+- Download [PhpStorm 🗗](https://www.jetbrains.com/phpstorm/download/) directly.
 
 ## Configuration
 Setup your PhpStorm configuration or install [Webber's configuration 🗗](https://github.com/webbertakken/PHPStormSettings)
