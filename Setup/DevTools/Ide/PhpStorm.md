@@ -12,6 +12,13 @@ Setup your PhpStorm configuration or install [Webber's configuration 🗗](https
 which is already setup for use with PHP (PSR-1, 2, Symfony), Javascript (ES6, JSX, React, Stage-0) and an array
 of languages surrounding these.
 
+Extra step for Material UI:
+- Go to `Settings` > `Plugins` > Install `Material Theme UI` plugin
+- Under `Appearance & Behaviour`, configure `Material Custom Theme` and select `Material Darker` as preset, then apply.
+- Finally, in `Settings` > `Editor` > `Color Scheme` select `Webber` or your other desired dark compatible color scheme.
+
+## Interface
+
 ## Plugins
 This is a pretty complete list for PHP and Javascript/React development.
 Feel free to skip any that you don't like.
@@ -23,7 +30,6 @@ Feel free to skip any that you don't like.
 - EditorConfig
 - GitToolBox
 - Ideolog
-- Material Theme UI
 - Markdown Navigator
 
 #### PHP
