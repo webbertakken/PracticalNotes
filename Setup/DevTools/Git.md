@@ -39,6 +39,12 @@ Alternatively follow the [Official Documentation 🗗](https://git-scm.com/downl
 The most common way to configure git is to change the global configuration for a user on a machine.
 Assuming this is what we want to achieve, the `--global` flag is used.
 
+#### Line-endings
+Let's all just agree that we only need `\n` characters.
+```
+git config --global core.eol lf
+```
+
 #### User credentials
 
 ```bash
