@@ -40,9 +40,12 @@ The most common way to configure git is to change the global configuration for a
 Assuming this is what we want to achieve, the `--global` flag is used.
 
 #### Line-endings
-Let's all just agree that we only need `\n` characters.
+Let's all just agree that we only need `\n` characters. 
+
+To not enforce this globally we keep end of line enforcement at native but disable autocrlf.
 ```
-git config --global core.eol lf
+git config --global core.eol native
+git config --global core.autocrlf = false
 ```
 
 #### User credentials
