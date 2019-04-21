@@ -45,7 +45,7 @@ Let's all just agree that we only need `\n` characters.
 To not enforce this globally we keep end of line enforcement at native but disable autocrlf.
 ```
 git config --global core.eol native
-git config --global core.autocrlf = false
+git config --global core.autocrlf false
 ```
 
 #### User credentials
