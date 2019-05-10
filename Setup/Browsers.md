@@ -41,7 +41,11 @@
 [Chrome 🗗](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), 
 [Firefox 🗗](https://addons.mozilla.org/en-GB/firefox/addon/tampermonkey/)
 )
+- Stylus (
+[Chrome 🗗](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), 
+[Firefox 🗗](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
+)
 
 ## Scripts
 - [Github dark theme 🗗](https://github.com/StylishThemes/GitHub-Dark-Script/blob/master/README.md)
-
+- [Gitlab dark theme 🗗](https://gitlab.com/vednoc/dark-gitlab)
