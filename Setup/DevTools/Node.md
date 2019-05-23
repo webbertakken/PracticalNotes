@@ -17,11 +17,6 @@ Using Chocolatey
 choco nodejs.install
 ```
 
-Using Scoop
-```PS
-scoop install nodejs
-```
-
 #### Linux
 Follow [Node Version Manager 🗗](https://github.com/creationix/nvm) official documentation
 
@@ -31,4 +26,9 @@ Node Package Manager (NPM) comes with the Node.js installation by default.
 Install and update NPM, Yarn, Gulp, GruntJs, Firebase tools
 ```bash
 npm install --global npm yarn gulp grunt firebase-tools
+```
+
+(windows only)
+``` 
+npm install --global --production windows-build-tools
 ```
