@@ -8,6 +8,13 @@
 choco install git
 ```
 
+For Powershell also set the `HOME` environment variable, as per this 
+[answer](https://serverfault.com/a/198709/409470) on StackOverflow.
+```
+setx HOME c:\Users\<your_user_name>
+```
+
+
 #### MacOS
 
 ```bash
