@@ -1,6 +1,11 @@
 # PracticalNotes
 ___The Web-developer's Notebook 📓___
 
+<h2>
+  After a factory reset or reinstall of the operating system;<br />
+  What to install? Just follow this list.
+</h2>
+
 ---
 
 The aim is to be platform independent, and favor simplicity and best practices
