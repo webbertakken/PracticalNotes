@@ -29,6 +29,7 @@ Feel free to skip any that you don't like.
 - GitToolBox
 - Ideolog
 - Markdown Navigator
+- Shellchecker
 
 #### PHP
 - Adders/Removers Generator
@@ -61,6 +62,7 @@ Feel free to skip any that you don't like.
 - Kubernetes
 - Kubernetes and OpenShift Resource Support
 - HashiCorp Terraform
+- Go templating (for helm charts)
 
 #### Cloud vendors
 - AWS CloudFormation (Amazon)
