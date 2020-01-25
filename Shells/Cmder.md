@@ -37,6 +37,10 @@ Don't set the startup dir (`/dir`-parameter), so that external applications can 
 
 Then go to `Settings` > `Startup` and choose `Multi` as the `Specified named task` to set it as default.
 
+#### Result
+
+![Cmder with four terminals](../images/cmder-with-four-terminals.png "Cmder with four terminals")
+
 ## Powerline Prompt
 
 > Official [docs](https://github.com/AmrEldib/cmder-powerline-prompt) for cmder powerline prompt
@@ -62,6 +66,10 @@ mklink /H powerline_git.lua c:\Repositories\cmder-powerline-prompt\powerline_git
 Go to `Settings` > `General` and choose color scheme: `Cobalt2`.
 
 Go to `Settings` > `General` > `Fonts` and select `Anonymice Powerline`.
+
+#### Result: 
+
+![Cmder with powerline and AnonymousPro font](../images/cmder-with-powerline-and-AnonymousPro-font.png "Cmder with powerline and AnonymousPro font")
 
 ## IDE Integration
 ##### Integrate with IntelliJ IDE 
