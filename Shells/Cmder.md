@@ -50,13 +50,13 @@ Then go to `Settings` > `Startup` and choose `Multi` as the `Specified named tas
 Install all fonts from [AnonymousPro](https://github.com/powerline/fonts/tree/master/AnonymousPro)
 
 Clone cmder-powerline-prompt:
-```console
+```powershell
 cd c:/Repositories
 git clone git@github.com:AmrEldib/cmder-powerline-prompt.git
 ```
 
 Link configuration files:
-```console
+```powershell
 cd %CMDER_ROOT%/config  
 mklink /H powerline_core.lua c:\Repositories\cmder-powerline-prompt\powerline_core.lua
 mklink /H powerline_prompt.lua c:\Repositories\cmder-powerline-prompt\powerline_prompt.lua
