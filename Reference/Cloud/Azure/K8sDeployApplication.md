@@ -22,4 +22,4 @@ $ docker login -u <AcrName> --password-stdin <AcrDnsName>
 ```
 
 ## Push & Deploy
-See Kubernetes' [commands](../../K8s/commands.md).
+See Kubernetes' [commands](../../Reference/K8s/commands.md).

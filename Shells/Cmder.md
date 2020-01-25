@@ -1,9 +1,6 @@
-# Windows Shells
+# Cmder
 
-## Cmder
-ConEmu is a console emulator, with many features. Cmder a layer on top of ConEmu that makes your life better.
-
-#### Installation
+## Installation
 Open powershell with administrative permissions and use chocolatey to install Cmder.
 ```powershell
 \> choco install cmder
@@ -40,8 +37,12 @@ Don't set the startup dir (`/dir`-parameter), so that external applications can 
 
 Then go to `Settings` > `Startup` and choose `Multi` as the `Specified named task` to set it as default.
 
-#### IDE Integration
-##### Integrate with IntelliJ IDE (Webstorm, PhpStorm, PyCharm etc.)
+## IDE Integration
+##### Integrate with IntelliJ IDE 
+
+Works for all Intellij Editors such as 
+_Webstorm_, _Rider_, _Android Studio_ and _PyCharm_.
+
 - Open the IDE and go to `Settings` > `Tools` > `Terminal`.
 - Set `Shell path` to the Cmder executable file.
 
@@ -50,36 +51,3 @@ Then go to `Settings` > `Startup` and choose `Multi` as the `Specified named tas
 - Search for terminal
 - Set `"terminal.explorerKind"` to `"external"`
 - Set `"terminal.external"` exec settings for your OS to the Cmder executable file.
-
-
-## Ubuntu in WSL
-Install Ubuntu Bash in Windows Subsystem for Linux
-
-___Note:__ with Cmder installed, Ubuntu bash in WSL becomes less relevant. You might want to install it as needed._
-
-#### Installation
-
-- Go to `Settings` > `Apps & features`
-- Under "Related settigns" click on `Programs and Features`
-- Go to `Turn Windows features on or off`
-- Enable Windows Subsystem for Linux
-- Reboot
-- Go to `Microsoft Store`
-- Search for `Ubuntu`
-- Install `Ubuntu`
-
-Update source lists
-
-```
-$ sudo apt-get update
-```
-
-Make apt-get work with packages over https
-
-```
-$ sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
-```
