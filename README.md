@@ -1,6 +1,6 @@
 # PracticalNotes
 ___My Developer's Notebook 📓___ 
-for reinstalling tools after reinstalling the operating system.
+for installing tools after reinstalling the operating system.
 
 ---
 
@@ -139,7 +139,7 @@ Pick any you may like;
  
 ## Reference docs
 
-These are quick documentation references and cheat sheets
+These are quick documentation references and cheat sheets;
 
 #### Cloud
  - [Azure](Reference/Cloud/Azure.md)
