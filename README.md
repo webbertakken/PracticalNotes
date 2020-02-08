@@ -94,7 +94,6 @@ Pick any you may like;
 #### Command-line extensions
 
 - [Fuzzy finder (fzf) 🗗](https://github.com/junegunn/fzf)
-- [Kube fzf 🗗](https://github.com/thecasualcoder/kube-fzf)
 
 ## General tools
 
@@ -132,6 +131,9 @@ Pick any you may like;
 - [Kubernetes](./DevTools/K8s.md)
 - [Minikube](./DevTools/K8s.md#Install-Minikube)
 - [Kubectl](./DevTools/K8s.md#Install-Kubectl)
+- [Kubectx 🗗](https://github.com/ahmetb/kubectx)
+- [kube aliases 🗗](https://github.com/ahmetb/kubectl-aliases)
+- [Kube fzf 🗗](https://github.com/thecasualcoder/kube-fzf)
 
 #### Serverless
 - _TBD_
