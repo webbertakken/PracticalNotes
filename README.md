@@ -79,28 +79,34 @@ Pick any you may like;
 [Firefox 🗗](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
 )
 
+
 #### Scripts
 
 - [Github dark theme 🗗](https://github.com/StylishThemes/GitHub-Dark-Script/blob/master/README.md)
 - [Gitlab dark theme 🗗](https://gitlab.com/vednoc/dark-gitlab)
 
+## Command line
+
+- Linux (default)
+- MacOS (default)
+- Windows ([Cmder](./Shells/Cmder.md), [WSL](./Shells/Wsl.md))
+
+#### Command-line extensions
+
+- [Fuzzy finder (fzf) 🗗](https://github.com/junegunn/fzf)
+- [Kube fzf 🗗](https://github.com/thecasualcoder/kube-fzf)
+
 ## General tools
+
+[//]: # (Dependencies: Shells)
 
 - File Archiving (Windows: [7-Zip 🗗](https://www.7-zip.org/download.html))
 - Recording screen/camera (Windows: [ScreenToGif 🗗](https://github.com/NickeManarin/ScreenToGif))
 
 ## Development tools
-   
-[//]: # (Note that the order of these does matter, when seperated by a new line)
-
-[//]: # (Dependencies: none)
-#### Shells
-
-- Linux
-- MacOS
-- Windows ([Cmder](./Shells/Cmder.md), [WSL](./Shells/Wsl.md))
 
 [//]: # (Dependencies: Shells)
+
 #### IDE
 - [PhpStorm](Ide/PhpStorm.md)
 - [VSCode](Ide/VsCode.md)
