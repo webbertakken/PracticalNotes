@@ -25,13 +25,22 @@ The default hotkey for opening and closing the quake-style console  is ``ctrl + 
 #### Example four-panel setup
 Go to `Settings` > `Startup` > `Tasks` and add a new task by cloning `cmd::Cmder as Admin`.
 
-Name the task `Multi`, tick all boxes and set the following commands in the textarea:
+Name the task `Multi 4` set the following commands in the textarea:
 ```bash
 *cmd /k ""%ConEmuDir%\..\init.bat" " -new_console:n:t
 *cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s1TVn:t
 *cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s1THn:t
 *cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s2THn:t
 ```
+
+Name another task `Multi 3` and set the following commands in the textarea:
+```bash
+*cmd /k ""%ConEmuDir%\..\init.bat" " -new_console:n:t
+>*cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s1TVn:t
+*cmd /k ""%ConEmuDir%\..\init.bat" " -cur_console:s1THn:t
+```
+
+Tick the boxes that read "default" for one of the created tasks.
 
 Don't set the startup dir (`/dir`-parameter), so that external applications can provide their default directory.
 
