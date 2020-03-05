@@ -78,7 +78,10 @@ Pick any you may like;
 [Chromium 🗗](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), 
 [Firefox 🗗](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
 )
-
+- GitHub File Icon (
+[Chromium 🗗](https://github.com/xxhomey19/github-file-icon)
+[Firefox 🗗](https://github.com/xxhomey19/github-file-icon)
+)
 
 #### Scripts
 
