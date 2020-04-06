@@ -6,6 +6,10 @@ It is also very light weight and has a great deal of language and plugin support
 [Download 🗗](https://code.visualstudio.com) 
 and install Visual Studio Code 
 
+Extra step for Dracula theme:
+
+- Follow the latest instructions at https://draculatheme.com/
+
 ## Plugins
 There is an [Awesome list](https://github.com/viatsko/awesome-vscode) availabe for VS Code. 
 
