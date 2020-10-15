@@ -14,7 +14,6 @@ For Powershell also set the `HOME` environment variable, as per this
 setx HOME c:\Users\<your_user_name>
 ```
 
-
 #### MacOS
 
 ```bash
@@ -79,8 +78,11 @@ git config --global color.status auto
 #### Enable rebasing by default
 
 ```bash
-# Never rebase master
+# Never rebase branches that are team-shared
+git config --global branch.main.rebase false
 git config --global branch.master.rebase false
+git config --global branch.develop.rebase false
+
 # Always rebase feature branches
 git config --global branch.autosetuprebase always
 ```
